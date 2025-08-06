@@ -1,4 +1,4 @@
-package com.plcoding.echojournal
+package com.velosobr.echojournal
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,8 +14,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.plcoding.echojournal.core.presentation.designsystem.theme.EchoJournalTheme
-import com.plcoding.echojournal.core.presentation.designsystem.theme.bgGradient
+import com.velosobr.echojournal.core.presentation.designsystem.theme.EchoJournalTheme
+import com.velosobr.echojournal.core.presentation.designsystem.theme.bgGradient
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

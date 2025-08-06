@@ -1,4 +1,4 @@
-package com.plcoding.echojournal
+package com.velosobr.echojournal
 
 import org.junit.Test
 
