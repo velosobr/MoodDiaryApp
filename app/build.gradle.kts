@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.velosobr.echojournal"
+    namespace = "com.velosobr.mooddiary"
     compileSdk = 35
 
     defaultConfig {

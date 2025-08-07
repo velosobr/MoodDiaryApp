@@ -1,4 +1,4 @@
-package com.velosobr.echojournal
+package com.velosobr.mooddiary
 
 import org.junit.Test
 

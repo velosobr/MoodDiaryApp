@@ -1,4 +1,4 @@
-package com.velosobr.echojournal.core.presentation.designsystem.theme
+package com.velosobr.mooddiary.core.presentation.designsystem.theme
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.lightColorScheme
@@ -27,7 +27,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun EchoJournalTheme(
+fun MoodDiaryTheme(
     content: @Composable () -> Unit
 ) {
     MaterialTheme(

@@ -1,4 +1,4 @@
-package com.velosobr.echojournal.core.presentation.designsystem.theme
+package com.velosobr.mooddiary.core.presentation.designsystem.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
@@ -6,7 +6,7 @@ import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import com.velosobr.echojournal.R
+import com.velosobr.mooddiary.R
 
 val Inter = FontFamily(
     Font(

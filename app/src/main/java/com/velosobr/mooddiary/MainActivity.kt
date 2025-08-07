@@ -1,4 +1,4 @@
-package com.velosobr.echojournal
+package com.velosobr.mooddiary
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,15 +14,15 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.velosobr.echojournal.core.presentation.designsystem.theme.EchoJournalTheme
-import com.velosobr.echojournal.core.presentation.designsystem.theme.bgGradient
+import com.velosobr.mooddiary.core.presentation.designsystem.theme.MoodDiaryTheme
+import com.velosobr.mooddiary.core.presentation.designsystem.theme.bgGradient
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            EchoJournalTheme {
+            MoodDiaryTheme {
                 Scaffold(
                     containerColor = Color.Transparent,
                     modifier = Modifier
@@ -50,7 +50,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    EchoJournalTheme {
+    MoodDiaryTheme {
         Greeting("Android")
     }
 }
